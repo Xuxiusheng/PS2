@@ -1,0 +1,18 @@
+{
+    "train": [
+      {
+        "root": "./data/GTA_COCO/train",
+        "anno": "./data/GTA_COCO/annotations/train.jsonl",
+        "label_map": "data/DWC/label_map.json",
+        "dataset_mode": "odvg"
+      }
+    ],
+    "val": [
+      {
+        "root": "./data/DWC\/Daytime_Foggy/val",
+        "anno": "./data/DWC\/Daytime_Foggy/annotations/val.json",
+        "label_map": null, 
+        "dataset_mode": "coco"
+      }
+    ]
+  }

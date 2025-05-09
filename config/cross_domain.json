@@ -1,0 +1,24 @@
+{
+    "train": [
+      {
+        "root": "data/VOCoco/VOC2007/train",
+        "anno": "data/VOCoco/VOC2007/annotations/train.jsonl",
+        "label_map": "data/VOCoco/label_map.json",
+        "dataset_mode": "odvg"
+      }, 
+      {
+        "root": "data/VOCoco/VOC2012/train",
+        "anno": "data/VOCoco/VOC2012/annotations/train.jsonl",
+        "label_map": "data/VOCoco/label_map.json",
+        "dataset_mode": "odvg"
+      }
+    ],
+    "val": [
+      {
+        "root": "data/VOCoco/VOC2012/val",
+        "anno": "data/VOCoco/VOC2012/annotations/val.json",
+        "label_map": null, 
+        "dataset_mode": "coco"
+      }
+    ]
+  }

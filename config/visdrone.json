@@ -1,0 +1,18 @@
+{
+    "train": [
+        {
+            "root": "data/VisDroneCoco/All/train",
+            "anno": "data/VisDroneCoco/All/annotations/train.jsonl",
+            "label_map": "data/VisDroneCoco/All/annotations/label_map.json",
+            "dataset_mode": "odvg"
+        }
+    ],
+    "val": [
+        {
+            "root": "data/VisDroneCoco/All/val",
+            "anno": "data/VisDroneCoco/All/annotations/val.json",
+            "label_map": null,
+            "dataset_mode": "coco"
+        }
+    ]
+}
